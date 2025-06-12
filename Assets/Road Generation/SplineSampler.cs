@@ -31,5 +31,12 @@ namespace Road_Generation {
             p1 = _position + (right * width);
             p2 = _position + (-right * width);
         }
+        
+        public Vector3 SampleSplineTangent(float t) {
+            splineContainer.Evaluate(splineIndex, t, out _position, out _tangent, out _upVector);
+            // Tangent is the (forward) direction of travel along the spline to the next point;
+            // Find the *right* direction based on this.
+            return Vector3.Cross(_tangent, _upVector).normalized;
+        }
     }
 }

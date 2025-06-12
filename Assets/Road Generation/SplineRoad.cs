@@ -3,24 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace Road_Generation {
+    [ExecuteInEditMode]
     public class SplineRoad : MonoBehaviour {
         [SerializeField] private float width;
         [SerializeField] private int resolution;
-
+        
         private SplineSampler _splineSampler;
         private MeshFilter _meshFilter;
 
         private List<Vector3> _leftVerts;
         private List<Vector3> _rightVerts;
 
-        private void OnEnable() {
-            
-        }
-
         private void Awake() {
             _splineSampler = GetComponent<SplineSampler>();
             _meshFilter = GetComponent<MeshFilter>();
-            
+        }
+
+        private void Update() {
             GetVerts();
             BuildMesh();
         }
