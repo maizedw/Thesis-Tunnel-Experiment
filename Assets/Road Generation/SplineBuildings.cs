@@ -26,6 +26,7 @@ namespace Road_Generation {
         private void GetVerts() {
             _leftVerts = new List<Vector3>();
             _rightVerts = new List<Vector3>();
+            _tangents = new List<Quaternion>();
 
             float step = 1f / resolution;
             for (int i = 0; i < resolution + 1; i++) {

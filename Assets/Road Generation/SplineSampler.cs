@@ -31,6 +31,12 @@ namespace Road_Generation {
             p1 = _position + (right * width);
             p2 = _position + (-right * width);
         }
+
+        public Vector3 SampleSpline(float t) {
+            splineContainer.Evaluate(splineIndex, t, out _position, out _tangent, out _upVector);
+
+            return _position;
+        }
         
         public Vector3 SampleSplineTangent(float t) {
             splineContainer.Evaluate(splineIndex, t, out _position, out _tangent, out _upVector);
