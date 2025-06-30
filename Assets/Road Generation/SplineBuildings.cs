@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
+using UnityEditor.Splines;
 using UnityEngine;
+using UnityEngine.Splines;
 
 namespace Road_Generation {
     [ExecuteInEditMode]
@@ -12,13 +14,37 @@ namespace Road_Generation {
         [SerializeField] private GameObject buildingsHolder;
         
         private SplineSampler _splineSampler;
+        private Spline _targetSpline;            // cache the spline we care about
         
         private List<Vector3> _leftVerts;
         private List<Vector3> _rightVerts;
         private List<Quaternion> _tangents;
 
-        private void Awake() {
+        private void OnEnable() {
             _splineSampler = GetComponent<SplineSampler>();
+            _targetSpline = _splineSampler.splineContainer.Spline;      // or .Container.Spline if that’s your API
+            
+#if UNITY_EDITOR
+            EditorSplineUtility.AfterSplineWasModified += OnSplineModified;
+#endif
+        }
+        
+        private void OnDisable()
+        {
+#if UNITY_EDITOR
+            EditorSplineUtility.AfterSplineWasModified -= OnSplineModified;
+#endif
+        }
+
+        private void OnSplineModified(Spline spline) {
+            Console.Out.WriteLine("Spline Modified");
+            
+            // only rebuild if *this* spline was the one edited
+            if (spline == _targetSpline)
+                Rebuild();
+        }
+        
+        private void Rebuild() {
             GetVerts();
             BuildBuildings();
         }

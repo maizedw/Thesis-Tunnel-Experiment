@@ -6,22 +6,12 @@ using UnityEngine.Splines;
 namespace Road_Generation {
     [ExecuteInEditMode]
     public class SplineSampler : MonoBehaviour {
-        [SerializeField] private SplineContainer splineContainer;
+        [SerializeField] public SplineContainer splineContainer;
         [SerializeField] private int splineIndex;
-        [SerializeField] [Range(0f, 1f)] private float time;
 
         private float3 _position;
         private float3 _tangent;
         private float3 _upVector;
-
-        private void Update() {
-            splineContainer.Evaluate(splineIndex, time, out _position, out _tangent, out _upVector);
-        }
-
-        private void OnDrawGizmos() {
-            Handles.matrix = transform.localToWorldMatrix;
-            Handles.SphereHandleCap(0, _position, Quaternion.identity, 1f, EventType.Repaint);
-        }
 
         public void SampleSplineWidth(float t, float width, out Vector3 p1, out Vector3 p2) {
             splineContainer.Evaluate(splineIndex, t, out _position, out _tangent, out _upVector);
