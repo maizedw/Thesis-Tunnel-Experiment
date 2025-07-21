@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	52382256	Footsteps_Rock_Walk_01	Y:\Developer\University\Thesis Tunnel Experiment\Thesis Tunnel Experiment_WwiseProject\.cache\CA\{CA7F862C-00CA-2866-C4B0-EA7AE8C23F9D}.wem		\Containers\Default Work Unit\Footsteps - Essentials\Footsteps_Rock\Footsteps_Rock_Walk\Footsteps_Rock_Walk_01		41962
+	66482011	Footsteps_Rock_Walk_02	Y:\Developer\University\Thesis Tunnel Experiment\Thesis Tunnel Experiment_WwiseProject\.cache\CA\{CAE9B27F-1138-F446-3A55-8C6FF5523650}.wem		\Containers\Default Work Unit\Footsteps - Essentials\Footsteps_Rock\Footsteps_Rock_Walk\Footsteps_Rock_Walk_02		40428
+	354116014	Footsteps_Rock_Walk_04	Y:\Developer\University\Thesis Tunnel Experiment\Thesis Tunnel Experiment_WwiseProject\.cache\1C\{1CD88E1D-C478-2C60-4EAF-4E9B58576487}.wem		\Containers\Default Work Unit\Footsteps - Essentials\Footsteps_Rock\Footsteps_Rock_Walk\Footsteps_Rock_Walk_04		36590
+	533004287	Footsteps_Rock_Walk_05	Y:\Developer\University\Thesis Tunnel Experiment\Thesis Tunnel Experiment_WwiseProject\.cache\8E\{8E36593F-B46D-4930-7902-4E8B167E873F}.wem		\Containers\Default Work Unit\Footsteps - Essentials\Footsteps_Rock\Footsteps_Rock_Walk\Footsteps_Rock_Walk_05		46992
+	547615068	Footsteps_Rock_Walk_08	Y:\Developer\University\Thesis Tunnel Experiment\Thesis Tunnel Experiment_WwiseProject\.cache\77\{77294E43-03D0-9192-733F-A89797AAFB70}.wem		\Containers\Default Work Unit\Footsteps - Essentials\Footsteps_Rock\Footsteps_Rock_Walk\Footsteps_Rock_Walk_08		37032
+	644151873	Footsteps_Rock_Walk_07	Y:\Developer\University\Thesis Tunnel Experiment\Thesis Tunnel Experiment_WwiseProject\.cache\25\{259CB6A7-AEF9-260A-705B-F93E47FF24EC}.wem		\Containers\Default Work Unit\Footsteps - Essentials\Footsteps_Rock\Footsteps_Rock_Walk\Footsteps_Rock_Walk_07		39190
+	741305044	Footsteps_Rock_Walk_09	Y:\Developer\University\Thesis Tunnel Experiment\Thesis Tunnel Experiment_WwiseProject\.cache\3D\{3D1CA977-7399-9F3F-8B54-C4E5CE50CFFF}.wem		\Containers\Default Work Unit\Footsteps - Essentials\Footsteps_Rock\Footsteps_Rock_Walk\Footsteps_Rock_Walk_09		42020
+	879101216	Footsteps_Rock_Walk_03	Y:\Developer\University\Thesis Tunnel Experiment\Thesis Tunnel Experiment_WwiseProject\.cache\14\{14369551-13FD-0176-E67F-026292883739}.wem		\Containers\Default Work Unit\Footsteps - Essentials\Footsteps_Rock\Footsteps_Rock_Walk\Footsteps_Rock_Walk_03		43178
+	1070262497	Footsteps_Rock_Walk_06	Y:\Developer\University\Thesis Tunnel Experiment\Thesis Tunnel Experiment_WwiseProject\.cache\3F\{3FCAB970-DAB0-E4D1-9B68-7165F00DC2C3}.wem		\Containers\Default Work Unit\Footsteps - Essentials\Footsteps_Rock\Footsteps_Rock_Walk\Footsteps_Rock_Walk_06		43946
+

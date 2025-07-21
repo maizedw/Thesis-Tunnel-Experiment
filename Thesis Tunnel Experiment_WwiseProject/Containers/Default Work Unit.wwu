@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1B6B41C8-900C-4559-B9BB-27FC1DD85EFB}" SchemaVersion="131">
+	<Containers>
+		<WorkUnit Name="Default Work Unit" ID="{1B6B41C8-900C-4559-B9BB-27FC1DD85EFB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Footsteps - Essentials" ID="{E8AD1D35-E5F0-4D9F-89D7-3ADC2C44D245}" ShortID="813869211">
+					<ChildrenList>
+						<SwitchContainer Name="Footsteps_Rock" ID="{7B3AC737-76A4-4BF2-828B-A2E0A2D41AF5}" ShortID="857121220">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C47B78C6-F234-43A9-A8E7-1E51721903D9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2843A042-2ED4-4D04-88C0-F2C3767B47F9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Footsteps_Rock_Walk" ID="{94BB0C27-207B-443E-B2D7-95CDAD9B68F8}" ShortID="30054846">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom>
+												<Attenuation Name="Attenuation (Custom)" ID="{3B76FF75-F394-4EE4-88C9-1E205D0FC60C}" ShortID="643059499">
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{A5347C33-1C98-4D97-A836-428EAAC19EB2}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>100</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<HighShelfUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighShelfUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+														<ObstructionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionVolumeUsage>
+														<ObstructionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionLPFUsage>
+														<ObstructionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionHPFUsage>
+														<ObstructionHSFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionHSFUsage>
+														<OcclusionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionVolumeUsage>
+														<OcclusionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionLPFUsage>
+														<OcclusionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionHPFUsage>
+														<OcclusionHSFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionHSFUsage>
+														<DiffractionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionVolumeUsage>
+														<DiffractionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionLPFUsage>
+														<DiffractionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionHPFUsage>
+														<DiffractionHSFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionHSFUsage>
+														<TransmissionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionVolumeUsage>
+														<TransmissionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionLPFUsage>
+														<TransmissionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionHPFUsage>
+														<TransmissionHSFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionHSFUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C47B78C6-F234-43A9-A8E7-1E51721903D9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2843A042-2ED4-4D04-88C0-F2C3767B47F9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Footsteps_Rock_Walk_01" ID="{CE4FA937-F179-4765-A459-812487495CF8}" ShortID="855314580">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C47B78C6-F234-43A9-A8E7-1E51721903D9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2843A042-2ED4-4D04-88C0-F2C3767B47F9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Rock_Walk_01" ID="{5894C074-CAF8-4B33-8700-C57C63FA2862}">
+													<Language>SFX</Language>
+													<AudioFile>Footsteps - Essentials\Footsteps_Rock\Footsteps_Rock_Walk\Footsteps_Rock_Walk_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="52382256"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Rock_Walk_01" ID="{5894C074-CAF8-4B33-8700-C57C63FA2862}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Rock_Walk_02" ID="{FA51F2C1-E3CA-48B1-AC50-2729FF10BDB3}" ShortID="223264740">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C47B78C6-F234-43A9-A8E7-1E51721903D9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2843A042-2ED4-4D04-88C0-F2C3767B47F9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Rock_Walk_02" ID="{C2D65565-69DB-475A-9C66-1046B6F585B5}">
+													<Language>SFX</Language>
+													<AudioFile>Footsteps - Essentials\Footsteps_Rock\Footsteps_Rock_Walk\Footsteps_Rock_Walk_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="66482011"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Rock_Walk_02" ID="{C2D65565-69DB-475A-9C66-1046B6F585B5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Rock_Walk_03" ID="{3BA29961-F92C-4CDC-A784-0BB88ED855A7}" ShortID="244268588">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C47B78C6-F234-43A9-A8E7-1E51721903D9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2843A042-2ED4-4D04-88C0-F2C3767B47F9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Rock_Walk_03" ID="{3EFE75F7-559E-48B4-B3A6-48D8D07BA375}">
+													<Language>SFX</Language>
+													<AudioFile>Footsteps - Essentials\Footsteps_Rock\Footsteps_Rock_Walk\Footsteps_Rock_Walk_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="879101216"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Rock_Walk_03" ID="{3EFE75F7-559E-48B4-B3A6-48D8D07BA375}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Rock_Walk_04" ID="{7BA8BA3F-E05E-4CD6-8EB8-8D9C04E4C591}" ShortID="137457671">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C47B78C6-F234-43A9-A8E7-1E51721903D9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2843A042-2ED4-4D04-88C0-F2C3767B47F9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Rock_Walk_04" ID="{4CC3E92C-011F-4562-97E8-1F31EEDAE0F6}">
+													<Language>SFX</Language>
+													<AudioFile>Footsteps - Essentials\Footsteps_Rock\Footsteps_Rock_Walk\Footsteps_Rock_Walk_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="354116014"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Rock_Walk_04" ID="{4CC3E92C-011F-4562-97E8-1F31EEDAE0F6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Rock_Walk_05" ID="{322F7D32-C15F-476B-B6E8-88CC939E5894}" ShortID="872087056">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C47B78C6-F234-43A9-A8E7-1E51721903D9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2843A042-2ED4-4D04-88C0-F2C3767B47F9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Rock_Walk_05" ID="{F12E66ED-9EBE-4035-BDDC-204238FA98E0}">
+													<Language>SFX</Language>
+													<AudioFile>Footsteps - Essentials\Footsteps_Rock\Footsteps_Rock_Walk\Footsteps_Rock_Walk_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="533004287"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Rock_Walk_05" ID="{F12E66ED-9EBE-4035-BDDC-204238FA98E0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Rock_Walk_06" ID="{5A135BA5-6188-4400-8FB9-F3093BD76C57}" ShortID="632794708">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C47B78C6-F234-43A9-A8E7-1E51721903D9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2843A042-2ED4-4D04-88C0-F2C3767B47F9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Rock_Walk_06" ID="{379EC8EC-D126-425F-89C4-5DDCAF197575}">
+													<Language>SFX</Language>
+													<AudioFile>Footsteps - Essentials\Footsteps_Rock\Footsteps_Rock_Walk\Footsteps_Rock_Walk_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1070262497"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Rock_Walk_06" ID="{379EC8EC-D126-425F-89C4-5DDCAF197575}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Rock_Walk_07" ID="{D37C3D01-07A9-4682-8391-4478BB1877C9}" ShortID="580741758">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C47B78C6-F234-43A9-A8E7-1E51721903D9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2843A042-2ED4-4D04-88C0-F2C3767B47F9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Rock_Walk_07" ID="{1731A0C9-B4BD-49FD-9032-8AB56BBF48C8}">
+													<Language>SFX</Language>
+													<AudioFile>Footsteps - Essentials\Footsteps_Rock\Footsteps_Rock_Walk\Footsteps_Rock_Walk_07.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="644151873"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Rock_Walk_07" ID="{1731A0C9-B4BD-49FD-9032-8AB56BBF48C8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Rock_Walk_08" ID="{3EBA6891-7926-4C29-B8D3-B6F02BD57A2C}" ShortID="69877754">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C47B78C6-F234-43A9-A8E7-1E51721903D9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2843A042-2ED4-4D04-88C0-F2C3767B47F9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Rock_Walk_08" ID="{44FCEF94-868B-4073-84CD-CE959A027479}">
+													<Language>SFX</Language>
+													<AudioFile>Footsteps - Essentials\Footsteps_Rock\Footsteps_Rock_Walk\Footsteps_Rock_Walk_08.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="547615068"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Rock_Walk_08" ID="{44FCEF94-868B-4073-84CD-CE959A027479}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Rock_Walk_09" ID="{DE2B41BC-1B11-4580-8216-0E824AEC5C36}" ShortID="170371443">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C47B78C6-F234-43A9-A8E7-1E51721903D9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2843A042-2ED4-4D04-88C0-F2C3767B47F9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Rock_Walk_09" ID="{46640EDF-231A-4953-A3E1-432745E9B9F3}">
+													<Language>SFX</Language>
+													<AudioFile>Footsteps - Essentials\Footsteps_Rock\Footsteps_Rock_Walk\Footsteps_Rock_Walk_09.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="741305044"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Rock_Walk_09" ID="{46640EDF-231A-4953-A3E1-432745E9B9F3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Footsteps_Rock_Walk" ID="{94BB0C27-207B-443E-B2D7-95CDAD9B68F8}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>
