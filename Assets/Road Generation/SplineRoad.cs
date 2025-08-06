@@ -66,13 +66,14 @@ namespace Road_Generation {
             List<int> tris = new List<int>();
             List<Vector2> uvs = new List<Vector2>();
             int offset;
+            Vector3 pos = transform.position;
 
             // Iterate verts and build a face
             for (int i = 1; i < resolution + 1; i++) {
-                Vector3 p1 = _leftVerts[i - 1];
-                Vector3 p2 = _rightVerts[i - 1];
-                Vector3 p3 = _leftVerts[i];
-                Vector3 p4 = _rightVerts[i];
+                Vector3 p1 = _leftVerts[i - 1] - pos;
+                Vector3 p2 = _rightVerts[i - 1] - pos;
+                Vector3 p3 = _leftVerts[i] - pos;
+                Vector3 p4 = _rightVerts[i] - pos;
 
                 offset = 4 * (i - 1);
 
