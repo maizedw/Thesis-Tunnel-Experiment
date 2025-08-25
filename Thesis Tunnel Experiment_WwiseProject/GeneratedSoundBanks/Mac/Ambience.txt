@@ -1,0 +1,22 @@
+Event	ID	Name			Wwise Object Path	Notes
+	96807741	Play_workshop			\Default Work Unit\Play_workshop	
+	169454015	Play_fire_station			\Default Work Unit\Play_fire_station	
+	695092163	Stop_workshop			\Default Work Unit\Stop_workshop	
+	908721650	Play_market			\Default Work Unit\Play_market	
+	1215590613	Play_police_station			\Default Work Unit\Play_police_station	
+	1651757994	Stop_hospital			\Default Work Unit\Stop_hospital	
+	3031419408	Stop_market			\Default Work Unit\Stop_market	
+	3606423206	Play_school			\Default Work Unit\Play_school	
+	3612281916	Stop_school			\Default Work Unit\Stop_school	
+	3993930595	Stop_police_station			\Default Work Unit\Stop_police_station	
+	4033451125	Stop_fire_station			\Default Work Unit\Stop_fire_station	
+	4166167996	Play_hospital			\Default Work Unit\Play_hospital	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	497998820	school	Y:\Developer\University\Thesis Tunnel Experiment\Thesis Tunnel Experiment_WwiseProject\.cache\BD\{BDF84128-DD8A-AF58-213F-7085FCE15AE4}.wem		\Containers\Default Work Unit\ambience\school		6041184
+	588220275	market	Y:\Developer\University\Thesis Tunnel Experiment\Thesis Tunnel Experiment_WwiseProject\.cache\51\{514473A0-DA05-7583-DF4C-B9D74DB28BBF}.wem		\Containers\Default Work Unit\ambience\market		12483168
+	596077356	fire station	Y:\Developer\University\Thesis Tunnel Experiment\Thesis Tunnel Experiment_WwiseProject\.cache\65\{65E26C78-F6A6-752D-D000-51D1D0228DA4}.wem		\Containers\Default Work Unit\ambience\fire station		4562016
+	667370003	police station	Y:\Developer\University\Thesis Tunnel Experiment\Thesis Tunnel Experiment_WwiseProject\.cache\43\{431DA211-885C-5D62-FD26-07E299EBD853}.wem		\Containers\Default Work Unit\ambience\police station		5370720
+	880492477	hospital	Y:\Developer\University\Thesis Tunnel Experiment\Thesis Tunnel Experiment_WwiseProject\.cache\B0\{B0742E4F-AC17-8FC1-4BF3-7C8D709CCCB7}.wem		\Containers\Default Work Unit\ambience\hospital		3573600
+	989905028	workshop	Y:\Developer\University\Thesis Tunnel Experiment\Thesis Tunnel Experiment_WwiseProject\.cache\B0\{B04ED9CF-43AD-C833-CBA6-469B57057400}.wem		\Containers\Default Work Unit\ambience\workshop		3287904
+

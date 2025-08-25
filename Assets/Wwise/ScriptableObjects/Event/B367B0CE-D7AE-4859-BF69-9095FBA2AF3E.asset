@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2bfb69029c0f4b0ea932c2258e6b416, type: 3}
+  m_Name: B367B0CE-D7AE-4859-BF69-9095FBA2AF3E
+  m_EditorClassIdentifier: 
+  objectName: Play_workshop
+  id: 96807741
+  guid: B367B0CE-D7AE-4859-BF69-9095FBA2AF3E
+  IsInUserDefinedSoundBank: 1

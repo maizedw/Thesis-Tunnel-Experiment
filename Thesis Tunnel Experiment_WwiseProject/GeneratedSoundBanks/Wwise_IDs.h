@@ -14,11 +14,24 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID FOOTSTEPS = 2385628198U;
+        static const AkUniqueID PLAY_FIRE_STATION = 169454015U;
+        static const AkUniqueID PLAY_HOSPITAL = 4166167996U;
+        static const AkUniqueID PLAY_MARKET = 908721650U;
+        static const AkUniqueID PLAY_POLICE_STATION = 1215590613U;
+        static const AkUniqueID PLAY_SCHOOL = 3606423206U;
+        static const AkUniqueID PLAY_WORKSHOP = 96807741U;
+        static const AkUniqueID STOP_FIRE_STATION = 4033451125U;
+        static const AkUniqueID STOP_HOSPITAL = 1651757994U;
+        static const AkUniqueID STOP_MARKET = 3031419408U;
+        static const AkUniqueID STOP_POLICE_STATION = 3993930595U;
+        static const AkUniqueID STOP_SCHOOL = 3612281916U;
+        static const AkUniqueID STOP_WORKSHOP = 695092163U;
     } // namespace EVENTS
 
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID AMBIENCE = 85412153U;
         static const AkUniqueID FOOTSTEPS = 2385628198U;
     } // namespace BANKS
 

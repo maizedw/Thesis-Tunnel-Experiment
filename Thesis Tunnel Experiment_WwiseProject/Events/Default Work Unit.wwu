@@ -14,6 +14,156 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_fire_station" ID="{6863D7B7-1B81-45EA-BA94-484D1C8500CE}">
+					<ChildrenList>
+						<Action Name="" ID="{F66F69CE-62ED-4EDF-894A-50B5DD9C413A}" ShortID="632092673">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fire station" ID="{F8B4922D-0152-4758-A65E-BFFD5E13ADBA}" WorkUnitID="{1B6B41C8-900C-4559-B9BB-27FC1DD85EFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_hospital" ID="{151B1250-5550-45A0-AE73-A0582386827E}">
+					<ChildrenList>
+						<Action Name="" ID="{6E31DABD-2480-4819-88CC-DB95C691FD94}" ShortID="462524866">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="hospital" ID="{9A5EDDE7-92D6-4122-9AC6-8428B53A4656}" WorkUnitID="{1B6B41C8-900C-4559-B9BB-27FC1DD85EFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_market" ID="{C608BBF5-73DC-4384-8C69-97899DF269E7}">
+					<ChildrenList>
+						<Action Name="" ID="{144A2DCF-ECBE-44AC-906F-BD055C9451E4}" ShortID="168717087">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="market" ID="{47019977-2C03-4D46-A2BA-DFF53B4E62CE}" WorkUnitID="{1B6B41C8-900C-4559-B9BB-27FC1DD85EFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_police_station" ID="{57C8EB83-4201-4C32-B0BB-0E05B14976B0}">
+					<ChildrenList>
+						<Action Name="" ID="{FCA51D4D-4A7C-4039-BC9B-50D2D062AD55}" ShortID="127289603">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="police station" ID="{90591466-2DD3-4358-9F8C-BADAE0D43986}" WorkUnitID="{1B6B41C8-900C-4559-B9BB-27FC1DD85EFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_school" ID="{DC295559-7A24-40D9-8C5B-AE193EE42E6C}">
+					<ChildrenList>
+						<Action Name="" ID="{F94F0BA1-0303-4B4F-924A-75E5F2D3E08B}" ShortID="336768033">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="school" ID="{67F41BFA-06B7-455B-A94F-8DB377952559}" WorkUnitID="{1B6B41C8-900C-4559-B9BB-27FC1DD85EFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_workshop" ID="{B367B0CE-D7AE-4859-BF69-9095FBA2AF3E}">
+					<ChildrenList>
+						<Action Name="" ID="{9E326DFF-79A5-41FF-8995-4EFC30A9EFEA}" ShortID="305460974">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="workshop" ID="{F54B3559-0727-4AE0-8634-86D6B7B28BBC}" WorkUnitID="{1B6B41C8-900C-4559-B9BB-27FC1DD85EFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_fire_station" ID="{C5B2D1A4-7F1B-4BD7-B8E4-E0C5DD1E5A36}">
+					<ChildrenList>
+						<Action Name="" ID="{AE7612D7-F43F-4BDB-A961-0AFD4E8F41F1}" ShortID="873814724">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fire station" ID="{F8B4922D-0152-4758-A65E-BFFD5E13ADBA}" WorkUnitID="{1B6B41C8-900C-4559-B9BB-27FC1DD85EFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_hospital" ID="{6B8BF4F9-C0F1-4302-9FBD-85070A9898D7}">
+					<ChildrenList>
+						<Action Name="" ID="{59685B53-98AD-497E-BE85-B61A03E47E53}" ShortID="138018086">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="hospital" ID="{9A5EDDE7-92D6-4122-9AC6-8428B53A4656}" WorkUnitID="{1B6B41C8-900C-4559-B9BB-27FC1DD85EFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_market" ID="{F67DF712-86F3-41E3-99A1-00DE2C51C0DE}">
+					<ChildrenList>
+						<Action Name="" ID="{10287318-A87E-4090-B937-198BD46BC3B2}" ShortID="81722027">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="market" ID="{47019977-2C03-4D46-A2BA-DFF53B4E62CE}" WorkUnitID="{1B6B41C8-900C-4559-B9BB-27FC1DD85EFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_police_station" ID="{2E17D08D-8064-468F-94F9-A1D1FDE9FF1F}">
+					<ChildrenList>
+						<Action Name="" ID="{E74B9E3B-B80B-4E78-BD0A-C107EBA92856}" ShortID="606738144">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="police station" ID="{90591466-2DD3-4358-9F8C-BADAE0D43986}" WorkUnitID="{1B6B41C8-900C-4559-B9BB-27FC1DD85EFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_school" ID="{B6444E6E-FF82-4949-A1CD-CB3D3E500F3A}">
+					<ChildrenList>
+						<Action Name="" ID="{F332F517-C255-4DE2-8A7F-CA47F91FC887}" ShortID="791484575">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="school" ID="{67F41BFA-06B7-455B-A94F-8DB377952559}" WorkUnitID="{1B6B41C8-900C-4559-B9BB-27FC1DD85EFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_workshop" ID="{57C8FECD-D9CE-425C-9A2E-3C6927C19F82}">
+					<ChildrenList>
+						<Action Name="" ID="{D81AB6E9-8E89-43EC-97A6-76916D9AA1D4}" ShortID="394737500">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="workshop" ID="{F54B3559-0727-4AE0-8634-86D6B7B28BBC}" WorkUnitID="{1B6B41C8-900C-4559-B9BB-27FC1DD85EFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -10,6 +10,24 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Ambience" ID="{D0F9D234-BE20-4B10-A6EB-E19B4DA71E6E}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_school" ID="{DC295559-7A24-40D9-8C5B-AE193EE42E6C}" WorkUnitID="{DF9FE9A3-748C-4B0B-8A4D-6D1D204D14F5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_market" ID="{F67DF712-86F3-41E3-99A1-00DE2C51C0DE}" WorkUnitID="{DF9FE9A3-748C-4B0B-8A4D-6D1D204D14F5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_workshop" ID="{57C8FECD-D9CE-425C-9A2E-3C6927C19F82}" WorkUnitID="{DF9FE9A3-748C-4B0B-8A4D-6D1D204D14F5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_hospital" ID="{6B8BF4F9-C0F1-4302-9FBD-85070A9898D7}" WorkUnitID="{DF9FE9A3-748C-4B0B-8A4D-6D1D204D14F5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_market" ID="{C608BBF5-73DC-4384-8C69-97899DF269E7}" WorkUnitID="{DF9FE9A3-748C-4B0B-8A4D-6D1D204D14F5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_hospital" ID="{151B1250-5550-45A0-AE73-A0582386827E}" WorkUnitID="{DF9FE9A3-748C-4B0B-8A4D-6D1D204D14F5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_fire_station" ID="{6863D7B7-1B81-45EA-BA94-484D1C8500CE}" WorkUnitID="{DF9FE9A3-748C-4B0B-8A4D-6D1D204D14F5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_police_station" ID="{2E17D08D-8064-468F-94F9-A1D1FDE9FF1F}" WorkUnitID="{DF9FE9A3-748C-4B0B-8A4D-6D1D204D14F5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_workshop" ID="{B367B0CE-D7AE-4859-BF69-9095FBA2AF3E}" WorkUnitID="{DF9FE9A3-748C-4B0B-8A4D-6D1D204D14F5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_school" ID="{B6444E6E-FF82-4949-A1CD-CB3D3E500F3A}" WorkUnitID="{DF9FE9A3-748C-4B0B-8A4D-6D1D204D14F5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_fire_station" ID="{C5B2D1A4-7F1B-4BD7-B8E4-E0C5DD1E5A36}" WorkUnitID="{DF9FE9A3-748C-4B0B-8A4D-6D1D204D14F5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_police_station" ID="{57C8EB83-4201-4C32-B0BB-0E05B14976B0}" WorkUnitID="{DF9FE9A3-748C-4B0B-8A4D-6D1D204D14F5}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
