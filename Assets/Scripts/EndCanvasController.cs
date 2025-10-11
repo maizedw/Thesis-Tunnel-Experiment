@@ -27,5 +27,10 @@ public class EndCanvasController : MonoBehaviour {
 
     private void HandleSplineCompleted() {
         _canvas.enabled = true;
+        LSLController.Instance.LogControl("Walk ended");
+    }
+
+    public void DirectionButtonClicked(string direction) {
+        LSLController.Instance.LogControl($"Direction: {direction}");
     }
 }

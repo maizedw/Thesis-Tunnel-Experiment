@@ -50,8 +50,10 @@ namespace Road_Generation {
             if (_distanceAccum < stepDistance) return;
             
             var emitterGO = _useLeftNext ? leftFootEmitter.gameObject : rightFootEmitter.gameObject;
-
+            var footString = _useLeftNext ? "LEFT" : "RIGHT";
+            
             footstepEvent.Post(emitterGO);
+            LSLController.Instance.LogFootsteps($"Footstep played: {footString}");
 
             // alternate foot and subtract distance
             _useLeftNext = !_useLeftNext;
