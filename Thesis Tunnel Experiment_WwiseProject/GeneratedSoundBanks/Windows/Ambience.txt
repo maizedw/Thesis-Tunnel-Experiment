@@ -4,7 +4,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	695092163	Stop_workshop			\Default Work Unit\Stop_workshop	
 	908721650	Play_market			\Default Work Unit\Play_market	
 	1215590613	Play_police_station			\Default Work Unit\Play_police_station	
+	1541866734	Play_fountain			\Default Work Unit\Play_fountain	
 	1651757994	Stop_hospital			\Default Work Unit\Stop_hospital	
+	2324519816	Play_Bells			\Default Work Unit\Play_Bells	
 	3031419408	Stop_market			\Default Work Unit\Stop_market	
 	3606423206	Play_school			\Default Work Unit\Play_school	
 	3612281916	Stop_school			\Default Work Unit\Stop_school	
@@ -13,6 +15,8 @@ Event	ID	Name			Wwise Object Path	Notes
 	4166167996	Play_hospital			\Default Work Unit\Play_hospital	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	187156312	fountain	Y:\Developer\University\Thesis Tunnel Experiment\Thesis Tunnel Experiment_WwiseProject\.cache\A3\{A3976A63-DC6F-71C6-6D8D-6BD04DAF8120}.wem		\Containers\Default Work Unit\ambience\fountain		4324752
+	451247901	Bells	Y:\Developer\University\Thesis Tunnel Experiment\Thesis Tunnel Experiment_WwiseProject\.cache\B8\{B82A3B66-605C-8356-8355-EEEA43A93D2D}.wem		\Containers\Default Work Unit\ambience\Bells		768240
 	497998820	school	Y:\Developer\University\Thesis Tunnel Experiment\Thesis Tunnel Experiment_WwiseProject\.cache\BD\{BDF84128-DD8A-AF58-213F-7085FCE15AE4}.wem		\Containers\Default Work Unit\ambience\school		6041184
 	588220275	market	Y:\Developer\University\Thesis Tunnel Experiment\Thesis Tunnel Experiment_WwiseProject\.cache\51\{514473A0-DA05-7583-DF4C-B9D74DB28BBF}.wem		\Containers\Default Work Unit\ambience\market		12483168
 	596077356	fire station	Y:\Developer\University\Thesis Tunnel Experiment\Thesis Tunnel Experiment_WwiseProject\.cache\65\{65E26C78-F6A6-752D-D000-51D1D0228DA4}.wem		\Containers\Default Work Unit\ambience\fire station		4562016

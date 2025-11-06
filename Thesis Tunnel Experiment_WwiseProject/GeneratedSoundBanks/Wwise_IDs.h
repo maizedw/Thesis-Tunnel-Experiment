@@ -14,7 +14,9 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID FOOTSTEPS = 2385628198U;
+        static const AkUniqueID PLAY_BELLS = 2324519816U;
         static const AkUniqueID PLAY_FIRE_STATION = 169454015U;
+        static const AkUniqueID PLAY_FOUNTAIN = 1541866734U;
         static const AkUniqueID PLAY_HOSPITAL = 4166167996U;
         static const AkUniqueID PLAY_MARKET = 908721650U;
         static const AkUniqueID PLAY_POLICE_STATION = 1215590613U;

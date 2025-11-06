@@ -164,6 +164,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Bells" ID="{2785AB90-2F7D-434C-A0FA-B60F1F867088}">
+					<ChildrenList>
+						<Action Name="" ID="{AD41A0CC-0AAC-4D34-8D27-8FE94FE3838B}" ShortID="64943017">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bells" ID="{1C779C74-C9A6-47EC-BDD1-47ABFC295F35}" WorkUnitID="{1B6B41C8-900C-4559-B9BB-27FC1DD85EFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_fountain" ID="{5817CCCF-B53A-4F3D-9DD6-19E2613E6957}">
+					<ChildrenList>
+						<Action Name="" ID="{80CD54B7-CDD8-4E46-95EE-98DFB02D3187}" ShortID="622511710">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fountain" ID="{5B211039-97B8-4D00-A9D1-82FF93A9AF48}" WorkUnitID="{1B6B41C8-900C-4559-B9BB-27FC1DD85EFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

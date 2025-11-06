@@ -436,6 +436,11 @@
 						<Sound Name="police station" ID="{90591466-2DD3-4358-9F8C-BADAE0D43986}" ShortID="763702141">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>7</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -464,6 +469,11 @@
 								<Property Name="AttenuationDistanceScaling" Type="Real32" Value="2"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>7</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -492,6 +502,11 @@
 						<Sound Name="workshop" ID="{F54B3559-0727-4AE0-8634-86D6B7B28BBC}" ShortID="145442583">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -512,6 +527,78 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="workshop" ID="{3ECAA8F4-8990-4235-80CC-DFFCF2F78213}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Bells" ID="{1C779C74-C9A6-47EC-BDD1-47ABFC295F35}" ShortID="1018052615">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Distance based" ID="{8347460B-1FC4-4627-83FF-D42F45B4368D}" WorkUnitID="{828907AC-5F3C-4245-B0F8-23732ADB151D}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C47B78C6-F234-43A9-A8E7-1E51721903D9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2843A042-2ED4-4D04-88C0-F2C3767B47F9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Bells" ID="{5299571C-3D5E-4A14-8575-F3CAC7EB824E}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="2.96978417266187"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Audio\Bells.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="451247901"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Bells" ID="{5299571C-3D5E-4A14-8575-F3CAC7EB824E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="fountain" ID="{5B211039-97B8-4D00-A9D1-82FF93A9AF48}" ShortID="639945027">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Distance based" ID="{8347460B-1FC4-4627-83FF-D42F45B4368D}" WorkUnitID="{828907AC-5F3C-4245-B0F8-23732ADB151D}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C47B78C6-F234-43A9-A8E7-1E51721903D9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2843A042-2ED4-4D04-88C0-F2C3767B47F9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="fountain" ID="{2A5EF422-502C-441E-ACA3-93F430686E41}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="5.31501586694512"/>
+										<Property Name="LoopEnd" Type="Real64" Value="12.833818464979"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Audio\fountain.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="187156312"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="fountain" ID="{2A5EF422-502C-441E-ACA3-93F430686E41}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
