@@ -716,6 +716,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameController
       objectReference: {fileID: 0}
+    - target: {fileID: 5916001940062885724, guid: 36253a15562f640d4a5c4056a8b89529, type: 3}
+      propertyPath: isRandom
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7360235998631858978, guid: 36253a15562f640d4a5c4056a8b89529, type: 3}
       propertyPath: m_LocalPosition.x
       value: -28.526684
@@ -1220,14 +1224,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4899780738663351079, guid: 4ba908c7b83454396bf9ce0cb8c3545a, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -296
-      objectReference: {fileID: 0}
-    - target: {fileID: 4899780738663351079, guid: 4ba908c7b83454396bf9ce0cb8c3545a, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -90
-      objectReference: {fileID: 0}
     - target: {fileID: 5236187435381426726, guid: 4ba908c7b83454396bf9ce0cb8c3545a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1237,29 +1233,13 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 779061234}
     - target: {fileID: 5236187435381426726, guid: 4ba908c7b83454396bf9ce0cb8c3545a, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LogControl
-      objectReference: {fileID: 0}
-    - target: {fileID: 5236187435381426726, guid: 4ba908c7b83454396bf9ce0cb8c3545a, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: LoadScene
-      objectReference: {fileID: 0}
-    - target: {fileID: 5236187435381426726, guid: 4ba908c7b83454396bf9ce0cb8c3545a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
-      value: random
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5480278950290589961, guid: 4ba908c7b83454396bf9ce0cb8c3545a, type: 3}
       propertyPath: splineAnimator
       value: 
       objectReference: {fileID: 1845032332}
-    - target: {fileID: 8630065661620289468, guid: 4ba908c7b83454396bf9ce0cb8c3545a, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 292.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8630065661620289468, guid: 4ba908c7b83454396bf9ce0cb8c3545a, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -90
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
