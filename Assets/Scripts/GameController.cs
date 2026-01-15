@@ -11,9 +11,15 @@ public class GameController : MonoBehaviour {
 
     public void LoadScene(string sceneName) {
         if (sceneName.IsNullOrEmpty()) sceneName = SceneManager.GetActiveScene().name;
+        else if (sceneName == "random")
+        {
+            int i = Random.Range(0, 2);
+            SceneManager.LoadScene(i);
+        }
  
         AkUnitySoundEngine.StopAll();
         LSLController.Instance.LogControl($"Loading scene {sceneName}");
-        SceneManager.LoadScene(sceneName);
+        if (sceneName != "random") SceneManager.LoadScene(sceneName);
+    
     }
 }
