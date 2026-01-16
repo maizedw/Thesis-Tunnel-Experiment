@@ -3,10 +3,17 @@
   "Project": {
    "Name": "Thesis Tunnel Experiment_WwiseProject",
    "GUID": "{F98CF301-FC51-4F10-890B-0424FE1F5F16}",
-   "Generator": "2025.1.0.8897"
+   "Generator": "2025.1.4.9062"
   },
   "CacheRoot": "../.cache",
   "Platforms": [
+   {
+    "Name": "Android",
+    "GUID": "{7272B879-F257-4CEB-BEA7-61A792615AE6}",
+    "BasePlatform": "Android",
+    "BasePlatformGUID": "{A2D401DE-B8B6-4FEB-8142-137C34D507CA}",
+    "Path": "Android"
+   },
    {
     "Name": "Mac",
     "GUID": "{C05B4C53-21CE-4C91-93A2-CD266943BA8F}",
@@ -31,6 +38,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{F1F01C61-2C10-C111-F8E5-7F0A1FF675F8}"
+  "FileHash": "{D4FA938C-F2EC-9F77-4403-195AF628B865}"
  }
 }

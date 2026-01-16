@@ -1,0 +1,4 @@
+Project migration to XML Schema (XSD) version 132 is completed.
+Project migration to XML Schema (XSD) version 133 is completed.
+The default work unit '\Sidechain Mixes\Default Work Unit' is missing.  It has been created. If your project is under source control, remember to add this file.
+Some new object properties have been added or obsolete properties deleted. The project file was updated. These changes will not have an impact on your project.

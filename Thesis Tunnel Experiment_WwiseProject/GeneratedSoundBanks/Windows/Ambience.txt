@@ -15,12 +15,12 @@ Event	ID	Name			Wwise Object Path	Notes
 	4166167996	Play_hospital			\Default Work Unit\Play_hospital	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	187156312	fountain	Y:\Developer\University\Thesis Tunnel Experiment\Thesis Tunnel Experiment_WwiseProject\.cache\A3\{A3976A63-DC6F-71C6-6D8D-6BD04DAF8120}.wem		\Containers\Default Work Unit\ambience\fountain		4324752
-	451247901	Bells	Y:\Developer\University\Thesis Tunnel Experiment\Thesis Tunnel Experiment_WwiseProject\.cache\B8\{B82A3B66-605C-8356-8355-EEEA43A93D2D}.wem		\Containers\Default Work Unit\ambience\Bells		768240
-	497998820	school	Y:\Developer\University\Thesis Tunnel Experiment\Thesis Tunnel Experiment_WwiseProject\.cache\BD\{BDF84128-DD8A-AF58-213F-7085FCE15AE4}.wem		\Containers\Default Work Unit\ambience\school		6041184
-	588220275	market	Y:\Developer\University\Thesis Tunnel Experiment\Thesis Tunnel Experiment_WwiseProject\.cache\51\{514473A0-DA05-7583-DF4C-B9D74DB28BBF}.wem		\Containers\Default Work Unit\ambience\market		12483168
-	596077356	fire station	Y:\Developer\University\Thesis Tunnel Experiment\Thesis Tunnel Experiment_WwiseProject\.cache\65\{65E26C78-F6A6-752D-D000-51D1D0228DA4}.wem		\Containers\Default Work Unit\ambience\fire station		4562016
-	667370003	police station	Y:\Developer\University\Thesis Tunnel Experiment\Thesis Tunnel Experiment_WwiseProject\.cache\43\{431DA211-885C-5D62-FD26-07E299EBD853}.wem		\Containers\Default Work Unit\ambience\police station		5370720
-	880492477	hospital	Y:\Developer\University\Thesis Tunnel Experiment\Thesis Tunnel Experiment_WwiseProject\.cache\B0\{B0742E4F-AC17-8FC1-4BF3-7C8D709CCCB7}.wem		\Containers\Default Work Unit\ambience\hospital		3573600
-	989905028	workshop	Y:\Developer\University\Thesis Tunnel Experiment\Thesis Tunnel Experiment_WwiseProject\.cache\B0\{B04ED9CF-43AD-C833-CBA6-469B57057400}.wem		\Containers\Default Work Unit\ambience\workshop		3287904
+	187156312	fountain	.cache\9B\{9B0C7AC9-07A4-D60C-E392-E42E16DBDBD4}.wem		\Containers\Default Work Unit\ambience\fountain		4324752
+	451247901	Bells	.cache\13\{139B868B-F11C-FD6C-E96F-99504E59BC93}.wem		\Containers\Default Work Unit\ambience\Bells		768240
+	497998820	school	.cache\BD\{BDF84128-DD8A-AF58-213F-7085FCE15AE4}.wem		\Containers\Default Work Unit\ambience\school		6041184
+	588220275	market	.cache\51\{514473A0-DA05-7583-DF4C-B9D74DB28BBF}.wem		\Containers\Default Work Unit\ambience\market		12483168
+	596077356	fire station	.cache\65\{65E26C78-F6A6-752D-D000-51D1D0228DA4}.wem		\Containers\Default Work Unit\ambience\fire station		4562016
+	667370003	police station	.cache\43\{431DA211-885C-5D62-FD26-07E299EBD853}.wem		\Containers\Default Work Unit\ambience\police station		5370720
+	880492477	hospital	.cache\B0\{B0742E4F-AC17-8FC1-4BF3-7C8D709CCCB7}.wem		\Containers\Default Work Unit\ambience\hospital		3573600
+	989905028	workshop	.cache\B0\{B04ED9CF-43AD-C833-CBA6-469B57057400}.wem		\Containers\Default Work Unit\ambience\workshop		3287904
 

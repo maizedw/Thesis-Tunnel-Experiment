@@ -3,14 +3,14 @@
   "Platform": "Windows",
   "BasePlatform": "Windows",
   "SchemaVersion": "16",
-  "SoundBankVersion": "168",
+  "SoundBankVersion": "172",
   "SoundBanks": [
    {
     "Id": "85412153",
     "Type": "User",
     "GUID": "{D0F9D234-BE20-4B10-A6EB-E19B4DA71E6E}",
     "Language": "SFX",
-    "Hash": "{0F972A0C-0376-7F9E-3BB7-4E43F30CDDD5}",
+    "Hash": "{BFE5F67E-37DC-EBAC-A393-C7D6707719A2}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambience",
     "ShortName": "Ambience",
     "Path": "Ambience.bnk",
@@ -21,7 +21,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Audio\\fountain.wav",
-      "CachePath": "A3/{A3976A63-DC6F-71C6-6D8D-6BD04DAF8120}.wem"
+      "CachePath": "9B/{9B0C7AC9-07A4-D60C-E392-E42E16DBDBD4}.wem"
      },
      {
       "Id": "451247901",
@@ -29,7 +29,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Audio\\Bells.wav",
-      "CachePath": "B8/{B82A3B66-605C-8356-8355-EEEA43A93D2D}.wem"
+      "CachePath": "13/{139B868B-F11C-FD6C-E96F-99504E59BC93}.wem"
      },
      {
       "Id": "497998820",
@@ -248,6 +248,6 @@
     ]
    }
   ],
-  "FileHash": "{9D22B676-EA7E-1CDA-9266-D47467099928}"
+  "FileHash": "{49E91282-9EF1-27B6-1469-44F595FDE9E3}"
  }
 }

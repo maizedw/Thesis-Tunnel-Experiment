@@ -1,0 +1,136 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Android",
+  "BasePlatform": "Android",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "2385628198",
+    "Type": "User",
+    "GUID": "{AA95A410-87D9-4EEE-A48C-DA8A13A5E2FA}",
+    "Language": "SFX",
+    "Hash": "{F01AF144-4378-D6CC-5F2A-E08C5A5FD04B}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Footsteps",
+    "ShortName": "Footsteps",
+    "Path": "Footsteps.bnk",
+    "Media": [
+     {
+      "Id": "52382256",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps - Essentials\\Footsteps_Rock\\Footsteps_Rock_Walk\\Footsteps_Rock_Walk_01.wav",
+      "CachePath": "CA/{CA7F862C-00CA-2866-C4B0-EA7AE8C23F9D}.wem"
+     },
+     {
+      "Id": "66482011",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps - Essentials\\Footsteps_Rock\\Footsteps_Rock_Walk\\Footsteps_Rock_Walk_02.wav",
+      "CachePath": "CA/{CAE9B27F-1138-F446-3A55-8C6FF5523650}.wem"
+     },
+     {
+      "Id": "354116014",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps - Essentials\\Footsteps_Rock\\Footsteps_Rock_Walk\\Footsteps_Rock_Walk_04.wav",
+      "CachePath": "1C/{1CD88E1D-C478-2C60-4EAF-4E9B58576487}.wem"
+     },
+     {
+      "Id": "533004287",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps - Essentials\\Footsteps_Rock\\Footsteps_Rock_Walk\\Footsteps_Rock_Walk_05.wav",
+      "CachePath": "8E/{8E36593F-B46D-4930-7902-4E8B167E873F}.wem"
+     },
+     {
+      "Id": "547615068",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps - Essentials\\Footsteps_Rock\\Footsteps_Rock_Walk\\Footsteps_Rock_Walk_08.wav",
+      "CachePath": "77/{77294E43-03D0-9192-733F-A89797AAFB70}.wem"
+     },
+     {
+      "Id": "644151873",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps - Essentials\\Footsteps_Rock\\Footsteps_Rock_Walk\\Footsteps_Rock_Walk_07.wav",
+      "CachePath": "25/{259CB6A7-AEF9-260A-705B-F93E47FF24EC}.wem"
+     },
+     {
+      "Id": "741305044",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps - Essentials\\Footsteps_Rock\\Footsteps_Rock_Walk\\Footsteps_Rock_Walk_09.wav",
+      "CachePath": "3D/{3D1CA977-7399-9F3F-8B54-C4E5CE50CFFF}.wem"
+     },
+     {
+      "Id": "879101216",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps - Essentials\\Footsteps_Rock\\Footsteps_Rock_Walk\\Footsteps_Rock_Walk_03.wav",
+      "CachePath": "14/{14369551-13FD-0176-E67F-026292883739}.wem"
+     },
+     {
+      "Id": "1070262497",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps - Essentials\\Footsteps_Rock\\Footsteps_Rock_Walk\\Footsteps_Rock_Walk_06.wav",
+      "CachePath": "3F/{3FCAB970-DAB0-E4D1-9B68-7165F00DC2C3}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2385628198",
+      "Name": "Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Footsteps",
+      "GUID": "{95638F57-E9E8-49EF-B23D-2CA422341101}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "0.38014585",
+      "DurationMax": "0.4885",
+      "MediaRefs": [
+       {
+        "Id": "52382256"
+       },
+       {
+        "Id": "66482011"
+       },
+       {
+        "Id": "354116014"
+       },
+       {
+        "Id": "533004287"
+       },
+       {
+        "Id": "547615068"
+       },
+       {
+        "Id": "644151873"
+       },
+       {
+        "Id": "741305044"
+       },
+       {
+        "Id": "879101216"
+       },
+       {
+        "Id": "1070262497"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{3526BA9D-79C0-98A4-F03D-9EEC66662701}"
+ }
+}

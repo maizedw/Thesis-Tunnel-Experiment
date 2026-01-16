@@ -3,14 +3,14 @@
   "Platform": "Windows",
   "BasePlatform": "Windows",
   "SchemaVersion": "16",
-  "SoundBankVersion": "168",
+  "SoundBankVersion": "172",
   "SoundBanks": [
    {
     "Id": "2385628198",
     "Type": "User",
     "GUID": "{AA95A410-87D9-4EEE-A48C-DA8A13A5E2FA}",
     "Language": "SFX",
-    "Hash": "{E6E6433C-2A79-AD72-02D4-4F9A65E1E297}",
+    "Hash": "{F01AF144-4378-D6CC-5F2A-E08C5A5FD04B}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Footsteps",
     "ShortName": "Footsteps",
     "Path": "Footsteps.bnk",
@@ -131,6 +131,6 @@
     ]
    }
   ],
-  "FileHash": "{8F66CAD4-B8C3-D69F-0B4A-834D49390AF7}"
+  "FileHash": "{87CE69FF-3337-D021-D62A-6C4AD83F527C}"
  }
 }
