@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="Project" SchemaVersion="133" WwiseVersion="v2025.1.4" WwiseBuild="9062">
 	<ProjectInfo>
 		<Project Name="Thesis Tunnel Experiment_WwiseProject" ID="{F98CF301-FC51-4F10-890B-0424FE1F5F16}">
 			<Platforms>
-				<Platform Name="Android" ReferencePlatform="Android" ID="{7272B879-F257-4CEB-BEA7-61A792615AE6}"/>
-				<Platform Name="Mac" ReferencePlatform="Mac" ID="{C05B4C53-21CE-4C91-93A2-CD266943BA8F}"/>
-				<Platform Name="Windows" ReferencePlatform="Windows" ID="{8DC2C9B7-053C-4C22-9700-D9CF7D1E1377}"/>
+				<Platform Name="Android" ReferencePlatform="Android" ID="{7272B879-F257-4CEB-BEA7-61A792615AE6}" />
+				<Platform Name="Mac" ReferencePlatform="Mac" ID="{C05B4C53-21CE-4C91-93A2-CD266943BA8F}" />
+				<Platform Name="Windows" ReferencePlatform="Windows" ID="{8DC2C9B7-053C-4C22-9700-D9CF7D1E1377}" />
 			</Platforms>
 			<LanguageList>
-				<Language Name="English(US)" ID="{3B72B439-2536-4A34-A0E2-29A4086DB144}"/>
-				<Language Name="External" ID="{B94EB280-D344-4248-9E09-5B4A8EE2EF32}"/>
-				<Language Name="Mixed" ID="{DEEC478A-0CFF-4BA6-A5F4-DEE445E1DF12}"/>
-				<Language Name="SFX" ID="{B5C420CC-92A0-467A-8958-69FDF0721D28}"/>
+				<Language Name="English(US)" ID="{3B72B439-2536-4A34-A0E2-29A4086DB144}" />
+				<Language Name="External" ID="{B94EB280-D344-4248-9E09-5B4A8EE2EF32}" />
+				<Language Name="Mixed" ID="{DEEC478A-0CFF-4BA6-A5F4-DEE445E1DF12}" />
+				<Language Name="SFX" ID="{B5C420CC-92A0-467A-8958-69FDF0721D28}" />
 			</LanguageList>
 			<PropertyList>
 				<Property Name="ExternalSourcesInputPath" Type="string">
@@ -35,8 +35,8 @@
 						<Value Platform="Android">256</Value>
 					</ValueList>
 				</Property>
-				<Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True"/>
-				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks"/>
+				<Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True" />
+				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True" /><Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks" />
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
@@ -79,7 +79,9 @@
 						<Value Platform="Android">-80</Value>
 					</ValueList>
 				</Property>
-				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_main|Build=8897|VersionName=v2025.1.0|Config=Release"/>
+				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_main|Build=8897|VersionName=v2025.1.0|Config=Release" />
+			
+				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjIxMzM1IiBtYXNrPSJRUFlaMzQ4NiIgZW5jPSIwIj48bGlj&#xA;ZW5zZSBpZD0iMSIgbmFtZT0iV3dpc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMiw0&#xA;LDEwIiBleHBpcmVzPSIyMDI2LTA2LTAxIiAgLz48bGljZW5zZSBpZD0iMjEiIG5h&#xA;bWU9Ik1haW50ZW5hbmNlIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjIsNCwxMCIgZXhw&#xA;aXJlcz0iMjAyNi0wNi0wMSIgIC8+PGxpY2Vuc2UgaWQ9IjcwIiBuYW1lPSJJbmRp&#xA;ZSBMaWNlbnNlIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjIsNCIgZXhwaXJlcz0iMjAy&#xA;Ni0wNi0wMSIgIC8+PGxpY2Vuc2UgaWQ9IjU0IiBuYW1lPSJTb3VuZFNlZWQgR3Jh&#xA;aW4iIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMiw0LDEwIiBleHBpcmVzPSIyMDI2LTA2&#xA;LTAxIiAgLz48bGljZW5zZSBpZD0iNiIgbmFtZT0iV3dpc2UgQ29udm9sdXRpb24g&#xA;UmV2ZXJiIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjIsNCwxMCIgZXhwaXJlcz0iMjAy&#xA;Ni0wNi0wMSIgIC8+PGxpY2Vuc2UgaWQ9IjgiIG5hbWU9Ild3aXNlIE1vdGlvbiIg&#xA;dHlwZT0iMyIgcGxhdGZvcm1zPSIyLDQsMTAiIGV4cGlyZXM9IjIwMjYtMDYtMDEi&#xA;ICAvPjxsaWNlbnNlIGlkPSI0OSIgbmFtZT0iV3dpc2UgUmVmbGVjdCIgdHlwZT0i&#xA;MyIgcGxhdGZvcm1zPSIyLDQsMTAiIGV4cGlyZXM9IjIwMjYtMDYtMDEiICAvPjxw&#xA;bHVnaW4gaWQ9IjgzMjMwNzUiIG5hbWU9Ild3aXNlIENvbnZvbHV0aW9uIFJldmVy&#xA;YiIgbGljZW5zZT0iNiIgLz48cGx1Z2luIGlkPSIzMzU1NDQzOSIgbmFtZT0iV3dp&#xA;c2UgTW90aW9uIFNjZVBhZCBSdW1ibGUiIGxpY2Vuc2U9IjgiIC8+PHBsdWdpbiBp&#xA;ZD0iMzM2MTk5NzUiIG5hbWU9Ild3aXNlIE1vdGlvbiBTY2VQYWQgSGFwdGljcyIg&#xA;bGljZW5zZT0iOCIgLz48L3Byb2plY3Q+|kZf3XzIIYlk4iV+8e5Cck53XlxeGLt5&#xA;DvNeBU2NhW+tq5Ib+BPsXiDoqxDt17OxY7V+RPtpnNaokaCVhRWNcVm7pkzVTrhy&#xA;8HA/U5UCt4mW6ULGD/iMjmoclhYDlE/xUZL64yiH2sO09Ihq/UAC09wnTdx2Z9lp&#xA;o8IalsR5qixe1t+1o7iHyQWmHxRX70Wk6SMRNjGLyJV9mwg27rF0+G7O8DMhfQri&#xA;5c5FtgR/srk+yXdEgG8kd7tFiK5GrVENsK+9CszQAFLhZSaFMD+65gFk3ZoP8cEl&#xA;o9js03xIpn2KXt8NoNrtPrerYYOEtjUGs0bDG9lceEMJnefkZC12uHA==&#xA;" />
 			</PropertyList>
 			<MiscSettings>
 				<MiscSettingEntry Name="Cache"><![CDATA[.cache]]></MiscSettingEntry>
@@ -668,7 +670,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="ADPCM" PluginType="1" CompanyID="0" PluginID="2"/>
+				<SharedPropertyList ClassName="ADPCM" PluginType="1" CompanyID="0" PluginID="2" />
 				<SharedPropertyList ClassName="Folder" PluginType="0" CompanyID="1" PluginID="2">
 					<PropertyList>
 						<Property Name="Color" Type="int16">
@@ -6322,7 +6324,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="ExternalSource" PluginType="0" CompanyID="1" PluginID="57"/>
+				<SharedPropertyList ClassName="ExternalSource" PluginType="0" CompanyID="1" PluginID="57" />
 				<SharedPropertyList ClassName="MusicTrackSequence" PluginType="0" CompanyID="1" PluginID="58">
 					<PropertyList>
 						<Property Name="Color" Type="int16">
@@ -6902,7 +6904,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Platform" PluginType="0" CompanyID="1" PluginID="69"/>
+				<SharedPropertyList ClassName="Platform" PluginType="0" CompanyID="1" PluginID="69" />
 				<SharedPropertyList ClassName="AudioDevice" PluginType="0" CompanyID="1" PluginID="71">
 					<PropertyList>
 						<Property Name="BypassEffect" Type="bool">
@@ -7052,8 +7054,8 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="CustomState" PluginType="0" CompanyID="1" PluginID="79"/>
-				<SharedPropertyList ClassName="MidiFileSource" PluginType="0" CompanyID="1" PluginID="80"/>
+				<SharedPropertyList ClassName="CustomState" PluginType="0" CompanyID="1" PluginID="79" />
+				<SharedPropertyList ClassName="MidiFileSource" PluginType="0" CompanyID="1" PluginID="80" />
 				<SharedPropertyList ClassName="Metadata" PluginType="0" CompanyID="1" PluginID="81">
 					<PropertyList>
 						<Property Name="Color" Type="int16">
@@ -7125,7 +7127,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="MetadataSlot" PluginType="0" CompanyID="0" PluginID="85"/>
+				<SharedPropertyList ClassName="MetadataSlot" PluginType="0" CompanyID="0" PluginID="85" />
 				<SharedPropertyList ClassName="StateGroupInfo" PluginType="0" CompanyID="1" PluginID="85">
 					<PropertyList>
 						<Property Name="MusicSyncType" Type="int32">
@@ -7135,7 +7137,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="PlaylistSlot" PluginType="0" CompanyID="0" PluginID="86"/>
+				<SharedPropertyList ClassName="PlaylistSlot" PluginType="0" CompanyID="0" PluginID="86" />
 				<SharedPropertyList ClassName="SidechainMix" PluginType="0" CompanyID="1" PluginID="86">
 					<PropertyList>
 						<Property Name="Color" Type="int16">
@@ -7160,7 +7162,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="ArgumentsSlot" PluginType="0" CompanyID="0" PluginID="87"/>
+				<SharedPropertyList ClassName="ArgumentsSlot" PluginType="0" CompanyID="0" PluginID="87" />
 				<SharedPropertyList ClassName="MediaPoolQuery" PluginType="0" CompanyID="1" PluginID="87">
 					<PropertyList>
 						<Property Name="Color" Type="int16">
@@ -7175,7 +7177,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="EntryPathSlot" PluginType="0" CompanyID="0" PluginID="88"/>
+				<SharedPropertyList ClassName="EntryPathSlot" PluginType="0" CompanyID="0" PluginID="88" />
 				<SharedPropertyList ClassName="MediaPoolFilter" PluginType="0" CompanyID="1" PluginID="88">
 					<PropertyList>
 						<Property Name="AudioDescription" Type="string">
@@ -7245,7 +7247,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="MusicArgumentsSlot" PluginType="0" CompanyID="0" PluginID="89"/>
+				<SharedPropertyList ClassName="MusicArgumentsSlot" PluginType="0" CompanyID="0" PluginID="89" />
 				<SharedPropertyList ClassName="MediaPoolDatabase" PluginType="0" CompanyID="1" PluginID="89">
 					<PropertyList>
 						<Property Name="Color" Type="int16">
@@ -11831,76 +11833,76 @@
 					</PropertyList>
 				</SharedPropertyList>
 			</SharedValues>
-			<DefaultConversion Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}"/>
+			<DefaultConversion Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
 			<PhysicalFolderList>
 				<PhysicalFolder Path="Attenuations">
-					<WorkUnit Name="Attenuations" ID="{017BDDA0-1BB1-4CE1-8077-79594EC4585C}" PersistMode="Standalone"/>
+					<WorkUnit Name="Attenuations" ID="{017BDDA0-1BB1-4CE1-8077-79594EC4585C}" PersistMode="Standalone" />
 				</PhysicalFolder>
 				<PhysicalFolder Path="Busses">
-					<WorkUnit Name="Busses" ID="{2388DAEA-9775-46C6-A2ED-C5222A397756}" PersistMode="Standalone"/>
+					<WorkUnit Name="Busses" ID="{2388DAEA-9775-46C6-A2ED-C5222A397756}" PersistMode="Standalone" />
 				</PhysicalFolder>
 				<PhysicalFolder Path="Containers">
-					<WorkUnit Name="Containers" ID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" PersistMode="Standalone"/>
+					<WorkUnit Name="Containers" ID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" PersistMode="Standalone" />
 				</PhysicalFolder>
 				<PhysicalFolder Path="Control Surface Sessions">
-					<WorkUnit Name="Control Surface Sessions" ID="{1751E4CD-8018-4E2C-9A8A-C77764D1D653}" PersistMode="Standalone"/>
+					<WorkUnit Name="Control Surface Sessions" ID="{1751E4CD-8018-4E2C-9A8A-C77764D1D653}" PersistMode="Standalone" />
 				</PhysicalFolder>
 				<PhysicalFolder Path="Conversion Settings">
-					<WorkUnit Name="Conversion Settings" ID="{4AA12040-049C-400F-ABCD-6EED192EC1D7}" PersistMode="Standalone"/>
+					<WorkUnit Name="Conversion Settings" ID="{4AA12040-049C-400F-ABCD-6EED192EC1D7}" PersistMode="Standalone" />
 				</PhysicalFolder>
 				<PhysicalFolder Path="Devices">
-					<WorkUnit Name="Devices" ID="{27092F88-225A-1154-6725-C8A34F3D4482}" PersistMode="Standalone"/>
+					<WorkUnit Name="Devices" ID="{27092F88-225A-1154-6725-C8A34F3D4482}" PersistMode="Standalone" />
 				</PhysicalFolder>
 				<PhysicalFolder Path="Dynamic Dialogue">
-					<WorkUnit Name="Dynamic Dialogue" ID="{309AF5DE-031F-4CE0-9B9B-C0A536275343}" PersistMode="Standalone"/>
+					<WorkUnit Name="Dynamic Dialogue" ID="{309AF5DE-031F-4CE0-9B9B-C0A536275343}" PersistMode="Standalone" />
 				</PhysicalFolder>
 				<PhysicalFolder Path="Effects">
-					<WorkUnit Name="Effects" ID="{41093F77-829F-4D88-8601-E8B25F3D4781}" PersistMode="Standalone"/>
+					<WorkUnit Name="Effects" ID="{41093F77-829F-4D88-8601-E8B25F3D4781}" PersistMode="Standalone" />
 				</PhysicalFolder>
 				<PhysicalFolder Path="Events">
-					<WorkUnit Name="Events" ID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" PersistMode="Standalone"/>
+					<WorkUnit Name="Events" ID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" PersistMode="Standalone" />
 				</PhysicalFolder>
 				<PhysicalFolder Path="Game Parameters">
-					<WorkUnit Name="Game Parameters" ID="{4025818E-097F-4A72-B692-B8A2E2663DCB}" PersistMode="Standalone"/>
+					<WorkUnit Name="Game Parameters" ID="{4025818E-097F-4A72-B692-B8A2E2663DCB}" PersistMode="Standalone" />
 				</PhysicalFolder>
 				<PhysicalFolder Path="Metadata">
-					<WorkUnit Name="Metadata" ID="{B6F4A62E-4F9B-45A6-B280-C80685E65296}" PersistMode="Standalone"/>
+					<WorkUnit Name="Metadata" ID="{B6F4A62E-4F9B-45A6-B280-C80685E65296}" PersistMode="Standalone" />
 				</PhysicalFolder>
 				<PhysicalFolder Path="Mixing Sessions">
-					<WorkUnit Name="Mixing Sessions" ID="{6477AAF7-E365-4990-A392-E59B824B6418}" PersistMode="Standalone"/>
+					<WorkUnit Name="Mixing Sessions" ID="{6477AAF7-E365-4990-A392-E59B824B6418}" PersistMode="Standalone" />
 				</PhysicalFolder>
 				<PhysicalFolder Path="Modulators">
-					<WorkUnit Name="Modulators" ID="{14C37342-3847-49FF-A05C-5007991BED50}" PersistMode="Standalone"/>
+					<WorkUnit Name="Modulators" ID="{14C37342-3847-49FF-A05C-5007991BED50}" PersistMode="Standalone" />
 				</PhysicalFolder>
 				<PhysicalFolder Path="Presets">
-					<WorkUnit Name="Presets" ID="{34C55C34-79EE-4678-860F-4C7DBE71D6DF}" PersistMode="Standalone"/>
+					<WorkUnit Name="Presets" ID="{34C55C34-79EE-4678-860F-4C7DBE71D6DF}" PersistMode="Standalone" />
 				</PhysicalFolder>
 				<PhysicalFolder Path="Queries">
-					<WorkUnit Name="Queries" ID="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}" PersistMode="Standalone"/>
+					<WorkUnit Name="Queries" ID="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}" PersistMode="Standalone" />
 				</PhysicalFolder>
 				<PhysicalFolder Path="Sidechain Mixes">
-					<WorkUnit Name="Sidechain Mixes" ID="{BF11189D-4362-4250-8C76-B828ACBAD977}" PersistMode="Standalone"/>
+					<WorkUnit Name="Sidechain Mixes" ID="{BF11189D-4362-4250-8C76-B828ACBAD977}" PersistMode="Standalone" />
 				</PhysicalFolder>
 				<PhysicalFolder Path="SoundBanks">
-					<WorkUnit Name="SoundBanks" ID="{C98E673F-A24C-48A8-960F-10565FFE70A0}" PersistMode="Standalone"/>
+					<WorkUnit Name="SoundBanks" ID="{C98E673F-A24C-48A8-960F-10565FFE70A0}" PersistMode="Standalone" />
 				</PhysicalFolder>
 				<PhysicalFolder Path="Soundcaster Sessions">
-					<WorkUnit Name="Soundcaster Sessions" ID="{4C96B38B-3DB4-40C7-91C9-665510E38993}" PersistMode="Standalone"/>
+					<WorkUnit Name="Soundcaster Sessions" ID="{4C96B38B-3DB4-40C7-91C9-665510E38993}" PersistMode="Standalone" />
 				</PhysicalFolder>
 				<PhysicalFolder Path="States">
-					<WorkUnit Name="States" ID="{59A9E7B9-61C9-461A-A96F-4997B541A59C}" PersistMode="Standalone"/>
+					<WorkUnit Name="States" ID="{59A9E7B9-61C9-461A-A96F-4997B541A59C}" PersistMode="Standalone" />
 				</PhysicalFolder>
 				<PhysicalFolder Path="Switches">
-					<WorkUnit Name="Switches" ID="{CB6175F1-6080-4A23-92EF-0807E304D0C1}" PersistMode="Standalone"/>
+					<WorkUnit Name="Switches" ID="{CB6175F1-6080-4A23-92EF-0807E304D0C1}" PersistMode="Standalone" />
 				</PhysicalFolder>
 				<PhysicalFolder Path="Triggers">
-					<WorkUnit Name="Triggers" ID="{6C7657FC-4758-4D41-BD4C-68B09F91DB29}" PersistMode="Standalone"/>
+					<WorkUnit Name="Triggers" ID="{6C7657FC-4758-4D41-BD4C-68B09F91DB29}" PersistMode="Standalone" />
 				</PhysicalFolder>
 				<PhysicalFolder Path="Virtual Acoustics">
-					<WorkUnit Name="Virtual Acoustics" ID="{32CD8547-A946-4547-BBB1-69F44E796139}" PersistMode="Standalone"/>
+					<WorkUnit Name="Virtual Acoustics" ID="{32CD8547-A946-4547-BBB1-69F44E796139}" PersistMode="Standalone" />
 				</PhysicalFolder>
 			</PhysicalFolderList>
-			<EnvironmentalCurves Name="Physically_Based" ID="{7AF96D5E-B0A7-4524-B96B-04F53DEAEC94}"/>
+			<EnvironmentalCurves Name="Physically_Based" ID="{7AF96D5E-B0A7-4524-B96B-04F53DEAEC94}" />
 		</Project>
 	</ProjectInfo>
 </WwiseDocument>
